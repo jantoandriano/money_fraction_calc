@@ -1,0 +1,92 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fraction__results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15px;
+  box-shadow: 1px 1px 3px #fff;
+  background: #fff;
+  min-height: 235px;
+  padding: 12px;
+  align-content: flex-start;
+  border: #070707 solid 2px;
+  border-radius: 5px;
+}
+.fraction__results span {
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin: 4px 8px;
+  box-shadow: 1px 1px 11px #8b8b8b;
+}
+.fraction__title {
+  text-align: left;
+  font-size: 14px;
+  color: #070007;
+}
+
+.form__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.btn__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #070707;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  border: 1px solid;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+  background: #070707;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+  color: #fff !important;
+}
+
+.input__form input[type=text] {
+  padding:10px;
+  border:2px solid black;
+  border-radius: 10px;
+}
+
+.input__form input[type=text]:focus {
+  border:2px solid #fff;
+  padding:10px;
+  border-radius: 10px;
+}
+
+
