@@ -79,7 +79,7 @@ function FractionComponent() {
           </form>
 
           <div className={styles.btn__submit}>
-            <button className={styles.btn} type="submit">Calculate</button>
+            <button className={styles.btn} type="submit" onClick={handleCalculateFractions}>Calculate</button>
           </div>
 
           <div className={styles.fraction__title}>
